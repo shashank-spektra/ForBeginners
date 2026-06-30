@@ -97,11 +97,11 @@ azd env set AZURE_LOCATION swedencentral
 print_success "Azure location set to swedencentral"
 
 # Set Azure AI agent model configuration
-azd env set AZURE_AI_AGENT_MODEL_NAME gpt-4.1
-azd env set AZURE_AI_AGENT_MODEL_VERSION 2025-04-14
-azd env set AZURE_AI_AGENT_DEPLOYMENT_NAME gpt-4.1
+azd env set AZURE_AI_AGENT_MODEL_NAME gpt-5.4
+azd env set AZURE_AI_AGENT_MODEL_VERSION 2026-03-05
+azd env set AZURE_AI_AGENT_DEPLOYMENT_NAME gpt-5.4
 
-print_success "Azure AI agent model configured: gpt-4.1 (version: 2025-04-14)"
+print_success "Azure AI agent model configured: gpt-5.4 (version: 2026-03-05)"
 
 # Set Azure AI agent deployment capacity
 azd env set AZURE_AI_AGENT_DEPLOYMENT_CAPACITY 100
